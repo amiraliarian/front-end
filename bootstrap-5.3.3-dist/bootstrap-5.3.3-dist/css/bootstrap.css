@@ -4,34 +4,6 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-/* کد های اضافه شده */
-.card-box {
-  max-width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-  margin: 50px;
-}
-
-.img-slid{
-  width: 100%;
-}
-
-.nav-coler01{
-  background-color: #333;
-}
-
-.ctr{
-  text-align: center;
-}
-
-.coler002{
-  background-color: #333;
-}
-/* کد ها اصلی */
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -1095,7 +1067,7 @@ progress {
 
 .g-4,
 .gx-4 {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x:0;
 }
 
 .g-4,
